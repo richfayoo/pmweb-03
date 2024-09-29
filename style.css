@@ -1,0 +1,254 @@
+* {
+    box-sizing:border-box;
+  }
+  
+body, html{
+    background-color: #FFF8E8;
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+/* ------------------------ HEADER ------------------------ */
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #F7EED3;
+  }
+  
+ .header li {
+    float: left;
+    padding-right: 5px;
+  }
+  
+  .header li a {
+    display: block;
+    color: #674636;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .header li a:hover:not(.active) {
+    background-color: #AAB396;
+    border-radius: 30px;
+  }
+  
+  .header .active {
+    background-color: #737965;
+    color: #ffffff;
+    border-radius: 30px;
+  }
+
+
+  /* ------------------------ HERO ------------------------ */
+
+
+  .hero-poto {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hehe.jpg");
+    height: 70%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+  }
+
+  /* ------------------------ ARTICLE ------------------------ */
+
+  .article h1, p{
+    color: #674636;
+  }
+
+  .head-arti{
+    margin-left: 51rem;
+    margin-right: 51rem;
+    border-radius: 30px;
+    background-color: #674636;
+  }
+
+  .article p{
+    padding-right: 40rem;
+  }
+
+  .head-arti h1{
+    color: #674636;
+    text-align: center;
+  }
+
+  .container{
+    padding: 50px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+  
+  .column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+  }
+  
+  .column-33 {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+  }
+  
+  /* .large-font {
+    font-size: 48px;
+  }
+  
+  .xlarge-font {
+    font-size: 64px
+  } */
+  
+    .button {
+    border: none;
+    color: #674636;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #AAB396;
+  }
+
+  .button:hover {
+    color: #ffdbca;
+    background-color: #565c49;
+  }
+
+  .article img {
+    border-radius: 30px;
+    display: block;
+    height: auto;
+    max-width: 100%;
+    height: auto;
+    width: 90%;
+  }
+  
+
+  /* ------------------------ FOOTER ------------------------ */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.footer-content .socials {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content .socials li {
+    margin: 0 10px;
+}
+
+.footer-content .socials li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer-bottom p {
+    margin-top: 10px;
+}
+
+
+/*------------------- ARTICLE ------------*/
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+header .author,
+header .date {
+  font-size: 14px;
+  color: #777;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article img.featured-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+article h2 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 20px;
+}
+
+article p {
+  font-size: 16px;
+  color: #555;
+  margin: 10px 0;
+}
+
+blockquote {
+  font-size: 18px;
+  font-style: italic;
+  color: #444;
+  border-left: 5px solid #ccc;
+  margin: 20px 0;
+  padding-left: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 14px;
+  color: #777;
+}
